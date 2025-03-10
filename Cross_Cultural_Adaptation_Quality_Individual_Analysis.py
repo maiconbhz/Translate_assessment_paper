@@ -19,7 +19,7 @@ transparency_data = {
     '': {'Translation': 2, 'Synthesis': 2, 'Back translation': 2, 'Expert committee': 2, 'Prefinal Version': 0}
 }
 
-# Convert dictionaries to pandas DataFrames
+# Convert to pandas DataFrames
 quality_df = pd.DataFrame(quality_data).T
 transparency_df = pd.DataFrame(transparency_data).T
 
